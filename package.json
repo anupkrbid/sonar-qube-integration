@@ -1,0 +1,12 @@
+{
+  "name": "sonar-cube-integration",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --coverage",
+    "sonar": "sonar-scanner"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "sonar-scanner": "^3.1.0"
+  }
+}
