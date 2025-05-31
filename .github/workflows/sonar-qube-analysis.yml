@@ -1,4 +1,4 @@
-name: PR check with SonarQube
+name: SonarQube Analysis
 on:
   push:
     branches:
