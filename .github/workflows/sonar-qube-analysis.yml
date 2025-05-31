@@ -1,9 +1,6 @@
 name: SonarQube Analysis with Tests
 
 on:
-  push:
-    branches:
-      - "**"
   pull_request:
     types: [opened, synchronize, reopened]
 
