@@ -6,4 +6,8 @@ function cube(n) {
   return n * n * n;
 }
 
-module.exports = { square, cube };
+function power(base, exponent) {
+  return Math.pow(base, exponent);
+}
+
+module.exports = { square, cube, power };
