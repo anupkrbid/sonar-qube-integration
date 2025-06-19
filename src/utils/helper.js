@@ -6,4 +6,8 @@ function cube(n) {
   return n * n * n;
 }
 
-module.exports = { square, cube };
+function sum(a, b) {
+  return a + b;
+}
+
+module.exports = { square, cube, sum };
