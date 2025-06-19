@@ -18,4 +18,12 @@ function square(a) {
   return a * a;
 }
 
-module.exports = { add, multiply, subtract, divide, square };
+function cube(a) {
+  return a * a * a;
+}
+
+function power(a, b) {
+  return Math.pow(a, b);
+}
+
+module.exports = { add, multiply, subtract, divide, square, cube, power };
